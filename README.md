@@ -1,3 +1,3 @@
--[ ] Make data manageable
--[ ] Exploratory analysis
+- [ ] Make data manageable
+- [ ] Exploratory analysis
  
