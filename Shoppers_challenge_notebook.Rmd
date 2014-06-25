@@ -1,0 +1,30 @@
+---
+title: "Shoppers Challenge Notebook"
+author: "Koba Khitalishvili & Evan Van Ness"
+date: "June 24, 2014"
+output: html_document
+---
+
+## Exploratory analysis
+#### trainHistory.csv
+
+Read file in and show first five rows:
+```{r}
+# read trainHistory.csv in
+train<-read.csv("data/trainHistory.csv",header=TRUE,sep=",")
+
+head(train)
+```
+
+Preprocess the data set a little:
+```{r}
+# Convert necesary columns to factors
+train[,1:4]<-lapply(train[,1:4],as.factor)
+```
+
+The response rate for each offer (t means responded and f is the opporsite):
+```{r. response rate}
+# Calculate response rate
+T<-addmargins(table(train$offer,train$repeater))
+round(prop.table(T,margin=1),3)*200
+```
