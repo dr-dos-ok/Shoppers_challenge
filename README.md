@@ -1,5 +1,5 @@
 ## Agenda
-- [ ] Make data manageable
+- [x] Make data manageable
   * [Data reduction](http://www.google.com/url?q=http%3A%2F%2Fwww.kaggle.com%2Fc%2Facquire-valued-shoppers-challenge%2Fforums%2Ft%2F7666%2Fgetting-started-data-reduction&sa=D&sntz=1&usg=AFQjCNEVa0Vu9pyaVTPXekcV2MBkTfmTIw)
   * [Alternative in R](http://www.google.com/url?q=http%3A%2F%2Fwww.kaggle.com%2Fc%2Facquire-valued-shoppers-challenge%2Fforums%2Ft%2F7666%2Fgetting-started-data-reduction%2F49266%23post49266&sa=D&sntz=1&usg=AFQjCNF_UjqX20WbDo6Dj8H8JBgYIQqfsQ)
 - [ ] Exploratory analysis
